@@ -35,26 +35,3 @@ fun FlowerInfo(flower: flower, onNavigateBack: () -> Unit) {
         }
     }
 }
-
-//@Composable
-//fun FlowerInfo(flower: flower, onNavigateBack: () -> Unit) {
-//    Column(
-//        modifier = Modifier
-//            .fillMaxSize()
-//            .padding(16.dp)
-//    ) {
-//        Text(
-//            text = "Flower Info",
-//            style = androidx.compose.ui.text.TextStyle(
-//                fontSize = 24.sp,
-//                fontWeight = FontWeight.Bold
-//            )
-//        )
-//        Text(text = "Name: ${flower.name}")
-//        Text(text = "Description: ${flower.description}")
-//        Text(text = "Price: ${flower.price}$")
-//        Button(onClick = onNavigateBack) {
-//            Text(text = "Back to List")
-//        }
-//    }
-//}

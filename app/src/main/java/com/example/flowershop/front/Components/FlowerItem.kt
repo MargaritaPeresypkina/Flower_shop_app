@@ -57,13 +57,13 @@ fun ListItemFlower(
                         }
                 )
                 Icon(
-                    Icons.Default.Delete, // Use appropriate delete icon
+                    Icons.Default.Delete,
                     contentDescription = "Delete",
                     tint = Color.Red,
                     modifier = Modifier
                         .size(25.dp)
                         .clickable {
-                            onDelete() // Call delete function
+                            onDelete()
                         }
                 )
             }
